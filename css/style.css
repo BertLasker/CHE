@@ -1,0 +1,378 @@
+/* 
+Kleur codes te gebruiken op de website zijn:
+Blauw
+CMYK= 100-60-10-53
+RGB= 0-54-96
+HEX= 0B3560
+
+Groen
+CMYK=53-0-100-0
+RGB= 143-188-25
+HEX= 92BD16
+
+Goud
+CMYK= 30-35-70-0
+RGB= 174-151-99
+HEX= AE9763
+
+Paars
+HEX= 604F8D
+*/
+
+.wrapper{
+   	width: 100%;
+   	margin: 0 auto;
+   	max-width: 1000px;
+	min-width: 800px;
+}
+.header{
+   	float: left;
+   	width: 100%;
+   	height: 170px;
+   	background-color: none;
+}
+.wrapmiddle{
+   	float: left;
+   	width: 100%;
+   	background-color: none;
+}
+.middle{
+   	margin-right:20px;
+   	margin-left:230px;
+   	background-color: none;
+   	height: 200px;
+}
+.left{
+   	float: left;
+ 	width: 220px;
+   	margin-left: -100%;
+   	background-color: none;
+   	height: 200px;
+}
+.right{
+   	float: left;
+   	width: 10px;
+   	margin-left: -300px;
+   	background-color: none;
+   	height: 200px;
+}
+.wrapright{
+   float: left;
+   width: 100%;
+   background-color: none;
+}
+.right2{
+   margin-left: 230px;
+   background-color: none;
+   height: auto;
+}
+.left2{
+   float: left;
+   width: 220px;
+   margin-left: -100%;
+   background-color: none;
+   height: auto;
+}
+.column-left {
+    width: 50px;
+    left: 0;
+    background: none;
+    position: absolute;
+}
+.column-center {
+    width: 900px;
+    background: none;
+    margin-left: 50px;
+    position: absolute;
+    font-family: Arial;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #0B3560;
+}
+.column-right {
+    width: 50px;
+    right: 0;
+    position: absolute;
+    background: none;
+}
+.footer{
+   	float: left;
+   	width: 100%;
+   	background-color: none;
+   	font-family: Arial;
+	font-size: 10px;
+}
+body {
+   	padding: 0px;
+    margin-bottom: 50px;
+}
+
+.holder { 
+	width:auto; 
+} 
+
+.links { 
+	float: left; 
+	width: 350px; 
+	margin-right: 5px;
+	text-align: right;
+	background-color: none;
+} 
+
+.rechts { 
+	float: right; 
+	width: 640; 
+	margin-left: 5px;
+	text-align: left;
+	background-color: none;
+} 
+
+.left p {
+	font-family: Arial;
+	font-size: 0.8em;
+    position: relative;
+    left: 10px;
+    line-height: 150%;
+}
+.left3 p {
+	font-family: Arial;
+	font-size: 0.8em;
+    position: relative;
+    left: 10px;
+    line-height: 150%;
+}
+.middle h2 {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #92BD16;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+}
+.middle h1 {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+	color: #92BD16;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+}
+.middle h3 {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #0B3560;
+	margin: 0;
+	padding: 0;
+}
+.middle3 h1 {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: normal;
+	color: #0B3560;
+	line-height: 1.6em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.middle3 h2 {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #AE9763;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+}
+.middle3 h3 {
+	font-family: Arial;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #d1b165;
+	margin: 0;
+	padding: 0;
+}
+.middle p {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: normal;
+	color: #0B3560;
+	line-height: 1.6em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.middle3 p {
+	font-family: Arial;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #000000;
+	line-height: 1.4em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.right2 p {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: justify;
+	color: #000000;
+	line-height: 1.4em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.left2 p {
+	font-family: Arial;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #000000;
+	line-height: 1.6em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.right2 h2 {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #92BD16;
+	left: 20px;
+	line-height: 1.3em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.right2 h3 {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #604F8D;
+	left: 20px;
+	line-height: 1.3em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.links p {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: right;
+	color: #000000;
+	line-height: 1.45em;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+.rechts p {
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	line-height: 1.5em;
+	margin: 0 8% 0 0;
+	padding: 0;
+}
+.glyphicon {
+    margin-right: 10px;
+  }
+A  {
+	color : Navy;
+	text-decoration : none;
+}
+A:Visited  {
+	color : Navy;
+	text-decoration : none;
+}
+A:Active  {
+	color : Navy;
+	text-decoration : none;
+}
+A:Hover  {
+	color : White;
+	text-decoration : none;
+	background-color: #6699CC;
+}
+.column-center a:active, .column-center a:visited {
+	color: #FFFFFF;
+}
+#menu-v li, #menu-v a {zoom:1;} /* Hacks for IE6, IE7 */
+#menu-v, #menu-v ul
+{
+    width: 180px; /* Main Menu Item widths */
+    border: 1px solid #fff;
+    border-top:none;
+    position: relative; font-size:0;
+    list-style: none; margin: 0; padding: 0; display:block;
+    z-index:9;
+}
+                
+/* Top level menu links style
+---------------------------------------*/
+
+#menu-v li
+{
+    background: #FFF /* url(Images/bg.gif) */ repeat-x 0 2px;
+    list-style: none; margin: 0; padding: 0;
+}
+#menu-v li a
+{
+    font: normal 12px Arial;
+    border: 1px solid #fff;
+    display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    color: black;
+    text-decoration: none;
+    line-height:26px;
+    padding-left:26px;            
+}
+#menu-v ul li a
+{
+    line-height:30px;
+}
+                
+#menu-v li a.arrow:hover
+{
+    background-image:url(Images/arrowon.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+        
+/*Sub level menu items
+---------------------------------------*/
+#menu-v li ul
+{
+    position: absolute;
+    width: 200px; /*Sub Menu Items width */
+    visibility:hidden;
+}
+        
+#menu-v a.arrow
+{
+    background-image:url(Images/arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+#menu-v li:hover, #menu-v li.onhover
+{
+    background-position:0 -62px;
+}
+#menu-v ul li
+{
+    background: #FFF url(Images/bg.gif) repeat-x 0 2px;
+}
+#menu-v ul li:hover, #menu-v ul li.onhover
+{
+    background: #FFF;
+    background-image:none;
+}
+        
+/* Holly Hack for IE \
+* html #menu-v  li
+{
+    float:left;
+    height: 1%;
+}
+* html #menu-v  li a
+{
+    height: 1%;
+}*/
+/* End */

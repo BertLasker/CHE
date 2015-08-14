@@ -1,0 +1,45 @@
+.email-background {
+    background: #fff;
+    padding: 10px;
+}
+
+.email-container, .pre-header {
+    max-width: 400px;
+    background: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pre-header {
+    background: #fff;
+    color: #fff;
+    font-size: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5;
+}
+
+.link {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    background: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
